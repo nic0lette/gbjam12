@@ -63,9 +63,8 @@ inline UBYTE bb_intersects(bounding_box_t *bb_a, point16_t *offset_a, bounding_b
  * @return Tile value, 0 if no collisions, COLLISION_ALL if out of bounds
  */
 inline UBYTE tile_at(UBYTE tx, UBYTE ty) {
-    // if ((tx < image_tile_width) && (ty < image_tile_height)) 
-    if (ty < image_tile_height) 
-        return ReadBankedUBYTE(collision_ptr + (ty * (UINT16)image_tile_width) + (tx % image_tile_width), collision_bank);
+    if ((tx < image_tile_width) && (ty < image_tile_height)) 
+        return ReadBankedUBYTE(collision_ptr + (ty * (UINT16)image_tile_width) + tx, collision_bank);
     return COLLISION_ALL;
 }
 

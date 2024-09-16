@@ -70,7 +70,7 @@ void scroll_update(void) BANKED {
     if (x & 0x8000u) {  // check for negative signed bit
         x = 0u;
     } else if (x > scroll_x_max) {
-        x = x % scroll_x_max;
+        x = scroll_x_max;
     }
     if (y & 0x8000u) {
         y = 0u;

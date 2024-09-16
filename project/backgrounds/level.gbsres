@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5e9c2454-eb6d-46df-b7d7-1b4ee7c889a0",
+  "name": "level",
+  "symbol": "bg_level",
+  "width": 240,
+  "height": 18,
+  "imageWidth": 1920,
+  "imageHeight": 144,
+  "filename": "level.png",
+  "tileColors": ""
+}
