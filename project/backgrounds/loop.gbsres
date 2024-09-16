@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "68e888c9-2f8e-4b4f-ba1c-ed7c2fc42096",
+  "name": "loop",
+  "symbol": "bg_placeholder_copy",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "loop.png",
+  "tileColors": "",
+  "autoColor": false
+}

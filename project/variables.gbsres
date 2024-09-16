@@ -1,0 +1,15 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "62037fb3-c169-4437-9ff5-fa105e63848b__L0",
+      "name": "y_pos",
+      "symbol": "var_y_pos"
+    },
+    {
+      "id": "62037fb3-c169-4437-9ff5-fa105e63848b__L1",
+      "name": "shoot",
+      "symbol": "var_shoot"
+    }
+  ]
+}
